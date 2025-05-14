@@ -1,0 +1,15 @@
+{
+  "name": "auth0-f8th-extension",
+  "version": "1.0.0",
+  "main": "server.js",
+  "meta": {
+    "title": "F8th Dashboard",
+    "icon": "https://www.f8th.ai/assets/images/f8th.png",
+    "auth0": {
+      "scopes": {
+        "read:users": {},
+        "update:users": {}
+      }
+    }
+  }
+}
